@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signupage</title>
+    <style>
+#container{
+    display: grid;
+    border: 1px solid black;
+    height: 450px;
+    width: 30%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: aqua;
+    grid-template-columns: repeat(1,0.8fr);
+    grid-template-rows: repeat(5,60px);
+    justify-content: center;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#container>div
+{
+    border: 1px solid black;
+    display: grid;
+    
+}
+#container>h2
+{
+    color: white;
+    text-align: center;
+    
+}
+
+
+#container>div:nth-child(2){
+background-color: white;
+padding-left: 10px;
+}
+#container>div:nth-child(3){
+background-color: white;
+padding-left: 10px;
+
+}
+#container>div:nth-child(4){
+background-color: white;
+padding-left: 10px;
+
+}
+#container>div:nth-child(5){
+   background-color:rgb(0, 204, 255);
+    color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#container>div:nth-child(6){
+    background-color: rgb(0, 204, 255);
+    color: white;
+    text-align: center;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+  <div id="container">
+      <h2>-Visitor-</h2>
+      <div><p>Full Name</p></div>
+      <div><p>Email</p></div>
+      <div><p>Organisation</p></div>
+      <div><p>SIGN UP</p></div>
+      <div><p>RETURN</p></div>
+  </div>  
+</body>
+</html>
