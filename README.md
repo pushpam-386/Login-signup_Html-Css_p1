@@ -2,4 +2,4 @@
 
 
 
-![App Screenshot](https://ibb.co/S0LYzLz)
+![App Screenshot](https://i.ibb.co/30xxKBX/Screenshot-1590.png)
